@@ -1,0 +1,48 @@
+//
+//  OpenCVforVideo.pch
+//  OpenCVforVideo
+//
+//  Created by yangjiahua on 2018/2/8.
+//  Copyright © 2018年 mac. All rights reserved.
+//
+
+#ifndef OpenCVforVideo_pch
+#define OpenCVforVideo_pch
+
+
+//
+// Prefix header for all source files of the 'VideoFilters' target in the 'VideoFilters' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#ifdef DEBUG
+
+#define XLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define XLog(...)
+
+#endif
+
+#endif
+
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+
+
+
+
+#endif /* OpenCVforVideo_pch */

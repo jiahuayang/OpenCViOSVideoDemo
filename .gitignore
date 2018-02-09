@@ -1,0 +1,4 @@
+OpenCVforVideoTests/*
+OpenCVforVideoUITests/*
+.DS_Store
+opencv2.framework/*

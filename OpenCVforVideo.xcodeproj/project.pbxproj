@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830E35E3202C7D1F00593F29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E35E2202C7D1F00593F29 /* main.m */; };
+		830E35E6202C7D1F00593F29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E35E5202C7D1F00593F29 /* AppDelegate.m */; };
+		830E35E9202C7D1F00593F29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E35E8202C7D1F00593F29 /* ViewController.m */; };
+		830E35EC202C7D1F00593F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830E35EA202C7D1F00593F29 /* Main.storyboard */; };
+		830E35EE202C7D1F00593F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830E35ED202C7D1F00593F29 /* Assets.xcassets */; };
+		830E35F1202C7D1F00593F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830E35EF202C7D1F00593F29 /* LaunchScreen.storyboard */; };
+		830E35FC202C7D1F00593F29 /* OpenCVforVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E35FB202C7D1F00593F29 /* OpenCVforVideoTests.m */; };
+		830E3607202C7D1F00593F29 /* OpenCVforVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E3606202C7D1F00593F29 /* OpenCVforVideoUITests.m */; };
+		830E3615202C7D3500593F29 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830E3614202C7D3500593F29 /* opencv2.framework */; };
+		830E361C202C87FB00593F29 /* MyViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 830E361A202C87FB00593F29 /* MyViewController.mm */; };
+		830E361D202C87FB00593F29 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830E361B202C87FB00593F29 /* MyViewController.xib */; };
+		830E3620202C944700593F29 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830E361F202C944700593F29 /* AVFoundation.framework */; };
+		830E3622202C952000593F29 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830E3621202C952000593F29 /* CoreMedia.framework */; };
+		830E3624202C9D4F00593F29 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 830E3623202C9D4F00593F29 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		830E35F8202C7D1F00593F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830E35D6202C7D1E00593F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830E35DD202C7D1E00593F29;
+			remoteInfo = OpenCVforVideo;
+		};
+		830E3603202C7D1F00593F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830E35D6202C7D1E00593F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830E35DD202C7D1E00593F29;
+			remoteInfo = OpenCVforVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		830E35DE202C7D1E00593F29 /* OpenCVforVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVforVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		830E35E2202C7D1F00593F29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		830E35E4202C7D1F00593F29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		830E35E5202C7D1F00593F29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		830E35E7202C7D1F00593F29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		830E35E8202C7D1F00593F29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		830E35EB202C7D1F00593F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		830E35ED202C7D1F00593F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		830E35F0202C7D1F00593F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		830E35F2202C7D1F00593F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830E35F7202C7D1F00593F29 /* OpenCVforVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVforVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		830E35FB202C7D1F00593F29 /* OpenCVforVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVforVideoTests.m; sourceTree = "<group>"; };
+		830E35FD202C7D1F00593F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830E3602202C7D1F00593F29 /* OpenCVforVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVforVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		830E3606202C7D1F00593F29 /* OpenCVforVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVforVideoUITests.m; sourceTree = "<group>"; };
+		830E3608202C7D1F00593F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830E3614202C7D3500593F29 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		830E3616202C7DBA00593F29 /* OpenCVforVideo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVforVideo.pch; sourceTree = "<group>"; };
+		830E3619202C87FB00593F29 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		830E361A202C87FB00593F29 /* MyViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyViewController.mm; sourceTree = "<group>"; };
+		830E361B202C87FB00593F29 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		830E361F202C944700593F29 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		830E3621202C952000593F29 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		830E3623202C9D4F00593F29 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		830E35DB202C7D1E00593F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830E3622202C952000593F29 /* CoreMedia.framework in Frameworks */,
+				830E3620202C944700593F29 /* AVFoundation.framework in Frameworks */,
+				830E3615202C7D3500593F29 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E35F4202C7D1F00593F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E35FF202C7D1F00593F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		830E35D5202C7D1E00593F29 = {
+			isa = PBXGroup;
+			children = (
+				830E3623202C9D4F00593F29 /* README.md */,
+				830E3614202C7D3500593F29 /* opencv2.framework */,
+				830E35E0202C7D1E00593F29 /* Opsncvforvideo */,
+				830E35FA202C7D1F00593F29 /* OpenCVforVideoTests */,
+				830E3605202C7D1F00593F29 /* OpenCVforVideoUITests */,
+				830E35DF202C7D1E00593F29 /* Products */,
+				830E361E202C944700593F29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		830E35DF202C7D1E00593F29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				830E35DE202C7D1E00593F29 /* OpenCVforVideo.app */,
+				830E35F7202C7D1F00593F29 /* OpenCVforVideoTests.xctest */,
+				830E3602202C7D1F00593F29 /* OpenCVforVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		830E35E0202C7D1E00593F29 /* Opsncvforvideo */ = {
+			isa = PBXGroup;
+			children = (
+				830E35E4202C7D1F00593F29 /* AppDelegate.h */,
+				830E35E5202C7D1F00593F29 /* AppDelegate.m */,
+				830E35E7202C7D1F00593F29 /* ViewController.h */,
+				830E35E8202C7D1F00593F29 /* ViewController.m */,
+				830E35EA202C7D1F00593F29 /* Main.storyboard */,
+				830E35ED202C7D1F00593F29 /* Assets.xcassets */,
+				830E35EF202C7D1F00593F29 /* LaunchScreen.storyboard */,
+				830E35F2202C7D1F00593F29 /* Info.plist */,
+				830E35E1202C7D1E00593F29 /* Supporting Files */,
+				830E3616202C7DBA00593F29 /* OpenCVforVideo.pch */,
+				830E3619202C87FB00593F29 /* MyViewController.h */,
+				830E361A202C87FB00593F29 /* MyViewController.mm */,
+				830E361B202C87FB00593F29 /* MyViewController.xib */,
+			);
+			name = Opsncvforvideo;
+			path = OpenCVforVideo;
+			sourceTree = "<group>";
+		};
+		830E35E1202C7D1E00593F29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				830E35E2202C7D1F00593F29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		830E35FA202C7D1F00593F29 /* OpenCVforVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				830E35FB202C7D1F00593F29 /* OpenCVforVideoTests.m */,
+				830E35FD202C7D1F00593F29 /* Info.plist */,
+			);
+			path = OpenCVforVideoTests;
+			sourceTree = "<group>";
+		};
+		830E3605202C7D1F00593F29 /* OpenCVforVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				830E3606202C7D1F00593F29 /* OpenCVforVideoUITests.m */,
+				830E3608202C7D1F00593F29 /* Info.plist */,
+			);
+			path = OpenCVforVideoUITests;
+			sourceTree = "<group>";
+		};
+		830E361E202C944700593F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				830E3621202C952000593F29 /* CoreMedia.framework */,
+				830E361F202C944700593F29 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		830E35DD202C7D1E00593F29 /* OpenCVforVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830E360B202C7D1F00593F29 /* Build configuration list for PBXNativeTarget "OpenCVforVideo" */;
+			buildPhases = (
+				830E35DA202C7D1E00593F29 /* Sources */,
+				830E35DB202C7D1E00593F29 /* Frameworks */,
+				830E35DC202C7D1E00593F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCVforVideo;
+			productName = OpenCVforVideo;
+			productReference = 830E35DE202C7D1E00593F29 /* OpenCVforVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		830E35F6202C7D1F00593F29 /* OpenCVforVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830E360E202C7D1F00593F29 /* Build configuration list for PBXNativeTarget "OpenCVforVideoTests" */;
+			buildPhases = (
+				830E35F3202C7D1F00593F29 /* Sources */,
+				830E35F4202C7D1F00593F29 /* Frameworks */,
+				830E35F5202C7D1F00593F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830E35F9202C7D1F00593F29 /* PBXTargetDependency */,
+			);
+			name = OpenCVforVideoTests;
+			productName = OpenCVforVideoTests;
+			productReference = 830E35F7202C7D1F00593F29 /* OpenCVforVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		830E3601202C7D1F00593F29 /* OpenCVforVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830E3611202C7D1F00593F29 /* Build configuration list for PBXNativeTarget "OpenCVforVideoUITests" */;
+			buildPhases = (
+				830E35FE202C7D1F00593F29 /* Sources */,
+				830E35FF202C7D1F00593F29 /* Frameworks */,
+				830E3600202C7D1F00593F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830E3604202C7D1F00593F29 /* PBXTargetDependency */,
+			);
+			name = OpenCVforVideoUITests;
+			productName = OpenCVforVideoUITests;
+			productReference = 830E3602202C7D1F00593F29 /* OpenCVforVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		830E35D6202C7D1E00593F29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					830E35DD202C7D1E00593F29 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JM67CGCM8N;
+						ProvisioningStyle = Automatic;
+					};
+					830E35F6202C7D1F00593F29 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 830E35DD202C7D1E00593F29;
+					};
+					830E3601202C7D1F00593F29 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 830E35DD202C7D1E00593F29;
+					};
+				};
+			};
+			buildConfigurationList = 830E35D9202C7D1E00593F29 /* Build configuration list for PBXProject "OpenCVforVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 830E35D5202C7D1E00593F29;
+			productRefGroup = 830E35DF202C7D1E00593F29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				830E35DD202C7D1E00593F29 /* OpenCVforVideo */,
+				830E35F6202C7D1F00593F29 /* OpenCVforVideoTests */,
+				830E3601202C7D1F00593F29 /* OpenCVforVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		830E35DC202C7D1E00593F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830E35F1202C7D1F00593F29 /* LaunchScreen.storyboard in Resources */,
+				830E35EE202C7D1F00593F29 /* Assets.xcassets in Resources */,
+				830E361D202C87FB00593F29 /* MyViewController.xib in Resources */,
+				830E35EC202C7D1F00593F29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E35F5202C7D1F00593F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E3600202C7D1F00593F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		830E35DA202C7D1E00593F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830E35E9202C7D1F00593F29 /* ViewController.m in Sources */,
+				830E35E6202C7D1F00593F29 /* AppDelegate.m in Sources */,
+				830E3624202C9D4F00593F29 /* README.md in Sources */,
+				830E361C202C87FB00593F29 /* MyViewController.mm in Sources */,
+				830E35E3202C7D1F00593F29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E35F3202C7D1F00593F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830E35FC202C7D1F00593F29 /* OpenCVforVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E35FE202C7D1F00593F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830E3607202C7D1F00593F29 /* OpenCVforVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		830E35F9202C7D1F00593F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830E35DD202C7D1E00593F29 /* OpenCVforVideo */;
+			targetProxy = 830E35F8202C7D1F00593F29 /* PBXContainerItemProxy */;
+		};
+		830E3604202C7D1F00593F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830E35DD202C7D1E00593F29 /* OpenCVforVideo */;
+			targetProxy = 830E3603202C7D1F00593F29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		830E35EA202C7D1F00593F29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830E35EB202C7D1F00593F29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		830E35EF202C7D1F00593F29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830E35F0202C7D1F00593F29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		830E3609202C7D1F00593F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		830E360A202C7D1F00593F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		830E360C202C7D1F00593F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JM67CGCM8N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OpenCVforVideo/OpenCVforVideo.pch;
+				INFOPLIST_FILE = OpenCVforVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosapp.class3UIApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		830E360D202C7D1F00593F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JM67CGCM8N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OpenCVforVideo/OpenCVforVideo.pch;
+				INFOPLIST_FILE = OpenCVforVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosapp.class3UIApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		830E360F202C7D1F00593F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenCVforVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosapp.OpenCVforVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCVforVideo.app/OpenCVforVideo";
+			};
+			name = Debug;
+		};
+		830E3610202C7D1F00593F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenCVforVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosapp.OpenCVforVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCVforVideo.app/OpenCVforVideo";
+			};
+			name = Release;
+		};
+		830E3612202C7D1F00593F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenCVforVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosapp.OpenCVforVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenCVforVideo;
+			};
+			name = Debug;
+		};
+		830E3613202C7D1F00593F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenCVforVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosapp.OpenCVforVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenCVforVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		830E35D9202C7D1E00593F29 /* Build configuration list for PBXProject "OpenCVforVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830E3609202C7D1F00593F29 /* Debug */,
+				830E360A202C7D1F00593F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830E360B202C7D1F00593F29 /* Build configuration list for PBXNativeTarget "OpenCVforVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830E360C202C7D1F00593F29 /* Debug */,
+				830E360D202C7D1F00593F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		830E360E202C7D1F00593F29 /* Build configuration list for PBXNativeTarget "OpenCVforVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830E360F202C7D1F00593F29 /* Debug */,
+				830E3610202C7D1F00593F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		830E3611202C7D1F00593F29 /* Build configuration list for PBXNativeTarget "OpenCVforVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830E3612202C7D1F00593F29 /* Debug */,
+				830E3613202C7D1F00593F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 830E35D6202C7D1E00593F29 /* Project object */;
+}
